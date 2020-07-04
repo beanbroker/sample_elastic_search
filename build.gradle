@@ -27,6 +27,9 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+
+	compile 'org.elasticsearch:elasticsearch:7.7.0'
+	compile 'org.elasticsearch.client:elasticsearch-rest-high-level-client:7.7.0'
 }
 
 test {
